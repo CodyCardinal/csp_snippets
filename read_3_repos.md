@@ -23,9 +23,9 @@ command line args
 arg responses
 
 -  exit status returns 0,1,2,3 much like I had to do in C class.
-   - 0 success. 
-   - 1 1 couldn't be sent. 
-   - 2 error in command line. 
+   - 0. success. 
+   - 1. One ore more notifications couldn't be sent. 
+   - 2. error in command line. 
    - 3. user filtering prevented urls from loading.
 
 Example
